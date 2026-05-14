@@ -59,7 +59,7 @@ Multi-tenant staffing platform where a GPT-4o-mini engine ranks candidates again
 
 ## Past Work
 
-**[Maritime CLIP Search](https://github.com/Munazil1/offline_clip_image_search_with_custom_maritime_dataset1)** — Built during internship at DRDO Centre for Airborne Systems (CABS), Bengaluru. CLIP-based semantic image search over a custom maritime surveillance dataset. 15% improvement in query-image match accuracy via feature fusion and WordNet synonym expansion.
+**[Maritime CLIP Search](https://github.com/Munazil1/maritime-clip-search)** — Built during internship at DRDO Centre for Airborne Systems (CABS), Bengaluru. CLIP-based semantic image search over a custom maritime surveillance dataset. 15% improvement in query-image match accuracy via feature fusion and WordNet synonym expansion.
 
 **[Voice-Based Email for Visually Impaired](https://github.com/Munazil1/voice-enabled-email-for-blind-people)** — Published at PRAVARTANA'24 (IEEE Bangalore Section). Voice-controlled email system using speech recognition and TTS, replacing the Gmail interface for visually impaired users.
 
@@ -101,6 +101,8 @@ Multi-tenant staffing platform where a GPT-4o-mini engine ranks candidates again
 ![Munazil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Munazil1&show_icons=true&theme=default&hide_border=true&count_private=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Munazil1&layout=compact&hide_border=true&langs_count=6)
 
+> 💡 Most of my 2025–2026 work commits live on the [Pure Magic IT org account](https://github.com/puremagicit) — happy to share contribution screenshots and walkthrough access in interviews.
+
 ---
 
 ## Currently Exploring
@@ -113,4 +115,4 @@ Multi-tenant staffing platform where a GPT-4o-mini engine ranks candidates again
 
 ## Contact
 
-[munazilv1@gmail.com](mailto:munazilv1@gmail.com) · [LinkedIn](https://linkedin.com/in/munazil-v-a9643a316) · Resume available on request
+[munazilv1@gmail.com](mailto:munazilv1@gmail.com) · [LinkedIn](https://linkedin.com/in/munazil-v-a9643a316) · [Resume](https://github.com/Munazil1/Munazil1/blob/main/resume.pdf)
