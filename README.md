@@ -1,105 +1,77 @@
-# Munazil V — AI Product Engineer
+# Munazil V — Machine Learning Developer
 
-**AI Product Engineer · Building production multi-tenant AI SaaS · Ex-DRDO CABS**
+**Machine Learning Developer · Building production multi-tenant AI SaaS · Ex-DRDO CABS**
 
-ML Engineer at [Pure Magic IT](https://puremagicit.com) (Dubai, remote) · B.E. AI & ML, 2025 · Based in India
+ML Developer at [Pure Magic IT](https://puremagicit.com) (Dubai, remote) · B.E. AI & ML, 2025 · Kannur, Kerala, India
 
-I build AI-powered SaaS products end-to-end — from OCR pipelines and LLM ranking engines to multi-tenant backends with JWT auth, Celery task queues, and CI/CD. My work lives in production, not notebooks.
+I build AI-powered SaaS products end-to-end — from OCR and document-intelligence pipelines to LLM ranking engines and multi-tenant backends with JWT auth, Celery task queues, and CI/CD. My work lives in production, not notebooks.
 
 ---
 
 ## Currently Shipping
 
-### DocFoundry — Multi-Tenant KYC Platform
-> Azure OCR · Face verification · DTCM-compliant document exports · Multi-tenant architecture
+### DocFoundry by Dexter AI — Multi-Tenant KYC Platform
+Azure OCR · InsightFace face verification · Compliant document exports · Multi-tenant architecture
 
-Processing real KYC submissions for UAE-based clients. Built with Azure Document Intelligence, a face verification pipeline, and DTCM-compliant export flows. Sole engineer.
+Processing real KYC submissions for UAE-based clients. Built with Azure Document Intelligence, an InsightFace face-verification pipeline, RBAC, and compliant export flows. 85% test coverage. Sole engineer.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
 
-*Professional work — lives on the Pure Magic IT org account*
+### Receipt OCR by Dexter AI — Multi-Tenant Receipt Digitization SaaS
+AED 20M+ processed · Azure DI + GPT-4 pipeline · Real-time processing
 
----
+Multi-receipt auto-cropping via Azure prebuilt-layout for content-aware detection, JWT/OTP auth, Celery async processing, real-time updates, and one-click Google Sheets export. Sole engineer from zero to production.
 
-### ReceiptFlow — Multi-Tenant Receipt OCR SaaS
-> AED 20M+ processed · 170+ confirmed receipts · Azure DI + GPT-4o pipeline
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white) ![Celery](https://img.shields.io/badge/Celery-37814A?logo=celery&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white)
 
-[ocr.puremagicit.com](https://ocr.puremagicit.com) · Multi-receipt auto-cropping (4 pipeline iterations), JWT auth, Celery async processing, Socket.IO real-time updates, Google Sheets export. Sole engineer from zero to production.
+### WorkTrack by Dexter AI — AI Event-Staffing Platform
+OpenAI ranking engine · 60+ APIs · Immutable AI snapshots · CI/CD on GitHub Actions
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![OpenAI](https://img.shields.io/badge/GPT--4o-412991?style=flat&logo=openai&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+Multi-tenant staffing platform where an OpenAI engine ranks candidates against event requirements — cutting a manual workflow from 10 minutes to 10 seconds. Immutable AI decision snapshots for auditability, super-admin panel, full RBAC, deployed via GitHub Actions. Sole engineer.
 
-*Professional work — lives on the Pure Magic IT org account*
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 
----
+### ClaimAssist — Insurance Claim Intake & AI Damage Assessment
+Multi-model AI · Fraud detection · Human-in-the-loop review
 
-### PMITS — AI Event Staffing Platform
-> GPT-4o-mini ranking engine · 60+ APIs · Immutable AI snapshots · CI/CD on GitHub Actions
+Automated claims pipeline (Email/Telegram/WhatsApp + live camera capture) running a multi-model AI assessment — OpenAI GPT for images, Gemini 2.5 Pro for 360° video — for damage severity, cost estimation, fraud detection, and human-in-the-loop review with a tamper-resistant audit log.
 
-Multi-tenant staffing platform where a GPT-4o-mini engine ranks candidates against event requirements. Immutable AI decision snapshots for auditability. Super admin panel, full RBAC, deployed via GitHub Actions. Sole engineer.
+![n8n](https://img.shields.io/badge/n8n-EA4B71?logo=n8n&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini_2.5_Pro-8E75B2?logo=googlegemini&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![OpenAI](https://img.shields.io/badge/GPT--4o--mini-412991?style=flat&logo=openai&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+### AEO Audit — AI Website Audit Tool
+Full-stack · Live · Lead capture
 
-*Professional work — lives on the Pure Magic IT org account*
+Full-stack AI audit tool that generates website/AEO reports, deployed live with Calendly booking — onboarded real inbound leads.
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![Claude](https://img.shields.io/badge/Claude-D97757?logo=anthropic&logoColor=white)
+
+> *All products above are professional work — code lives on the [Pure Magic IT org account](https://github.com/puremagicit). I'm the sole engineer on each. Plus: AI lead-qualification CRM bots, a content-intelligence automation engine, and a Google Workspace add-on submitted to production.*
 
 ---
 
 ## Past Work
 
-**[Maritime CLIP Search](https://github.com/Munazil1/maritime-clip-search)** — Built during internship at DRDO Centre for Airborne Systems (CABS), Bengaluru. CLIP-based semantic image search over a custom maritime surveillance dataset. 15% improvement in query-image match accuracy via feature fusion and WordNet synonym expansion.
-
-**[Voice-Based Email for Visually Impaired](https://github.com/Munazil1/voice-enabled-email-for-blind-people)** — Published at PRAVARTANA'24 (IEEE Bangalore Section). Voice-controlled email system using speech recognition and TTS, replacing the Gmail interface for visually impaired users.
+- **[Maritime CLIP Search](https://github.com/Munazil1/maritime-clip-search)** — Built during my internship at DRDO Centre for Airborne Systems (CABS), Bengaluru. CLIP-based semantic image search over a custom maritime surveillance dataset. 15% improvement in query-image match accuracy via feature fusion and WordNet synonym expansion.
+- **[Voice-Based Email for Visually Impaired](https://github.com/Munazil1/voice-enabled-email-for-blind-people)** — Published at PRAVARTANA'24 (IEEE Bangalore Section). Voice-controlled email system using speech recognition and TTS, replacing the Gmail interface for visually impaired users.
 
 ---
 
 ## Tech Stack
 
-**Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+**Languages:** ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
-**AI & ML**
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![CLIP](https://img.shields.io/badge/CLIP-OpenAI-412991?style=flat)
-![Azure Document Intelligence](https://img.shields.io/badge/Azure_DI-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+**AI & ML:** ![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?logo=googlegemini&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-D97757?logo=anthropic&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![CLIP](https://img.shields.io/badge/CLIP-5C3EE8?logoColor=white) ![Azure DI](https://img.shields.io/badge/Azure_Document_Intelligence-0078D4?logo=microsoftazure&logoColor=white)
 
-**Backend**
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white)
+**Backend:** ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white) ![Celery](https://img.shields.io/badge/Celery-37814A?logo=celery&logoColor=white)
 
-**Frontend**
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+**Frontend:** ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 
-**Infra**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+**Automation & Infra:** ![n8n](https://img.shields.io/badge/n8n-EA4B71?logo=n8n&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
 
 ---
 
-## GitHub Stats
-
-![Munazil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Munazil1&show_icons=true&theme=default&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Munazil1&layout=compact&hide_border=true&langs_count=6)
+![Munazil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Munazil1&show_icons=true&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Munazil1&layout=compact&langs_count=6&hide_border=true)
 
 > 💡 Most of my 2025–2026 work commits live on the [Pure Magic IT org account](https://github.com/puremagicit) — happy to share contribution screenshots and walkthrough access in interviews.
 
@@ -107,12 +79,12 @@ Multi-tenant staffing platform where a GPT-4o-mini engine ranks candidates again
 
 ## Currently Exploring
 
-- Agentic AI workflows — multi-step reasoning, tool use, evaluation frameworks
-- Document intelligence — structured extraction from unstructured enterprise docs
-- Multi-tenant SaaS infra patterns — tenant isolation, billing, RBAC at scale
+- **Agentic AI workflows** — multi-step reasoning, tool use, evaluation frameworks
+- **Document intelligence** — structured extraction from unstructured enterprise docs
+- **Multi-tenant SaaS infra patterns** — tenant isolation, billing, RBAC at scale
 
 ---
 
 ## Contact
 
-[munazilv1@gmail.com](mailto:munazilv1@gmail.com) · [LinkedIn](https://linkedin.com/in/munazil-v-a9643a316) · [Resume](https://github.com/Munazil1/Munazil1/blob/main/resume.pdf)
+📩 [munazilv1@gmail.com](mailto:munazilv1@gmail.com) · 🔗 [LinkedIn](https://linkedin.com/in/munazil-v) · 📄 [Resume](https://github.com/Munazil1/Munazil1/blob/main/resume.pdf)
